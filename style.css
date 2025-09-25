@@ -1,0 +1,75 @@
+.frog {
+    color:salmon;
+    background-color: palegoldenrod;
+    text-rendering: optimizeSpeed;
+}
+body {
+    background-color: chocolate;
+    text-rendering: optimizeSpeed;
+}
+h1 {
+    background-color: rebeccapurple;
+    color: silver;
+    text-align: center;
+    text-rendering: optimizeSpeed;
+}
+p {
+    color: #0000FF;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+a:link {
+    color: bisque;
+    text-rendering: optimizeSpeed;
+}
+a:hover {
+    color: gainsboro;
+
+    text-decoration: overline;
+    text-rendering: optimizeSpeed;
+}
+a:visited {
+    color: burlywood;
+
+    text-decoration: dotted;
+    text-rendering: optimizeSpeed;
+}
+ul {
+    color: aquamarine;
+    text-rendering: optimizeSpeed;
+
+    list-style: image-set("My logo small.png");
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+ol {
+    text-rendering: optimizeSpeed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+.video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
